@@ -1,0 +1,1 @@
+{"uuid":"3df07cec-ec60-48e8-aee5-6d1f84538bdb","name":"com.tests.Test_GetCourse","children":["e32264be-c6f7-4c97-bc8e-64cd9ea4135d"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781678141334,"stop":1781678147649}],"afters":[],"start":1781678141301,"stop":1781678149822}

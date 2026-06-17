@@ -1,0 +1,1 @@
+{"uuid":"adc66aae-7deb-4975-ae62-c61091072cc7","name":"com.tests.Test_GetRole","children":["c2001eb1-c69a-4554-adee-fd60075790e3"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781677327165,"stop":1781677332789}],"afters":[],"start":1781677327132,"stop":1781677334290}

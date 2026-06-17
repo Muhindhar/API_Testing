@@ -1,0 +1,1 @@
+{"uuid":"52bb7da1-e51e-456e-bc59-1b1e58b83187","name":"com.tests.Test_GetCourse","children":["2da7460d-44e5-422e-a6aa-db74e2b9e0a0"],"befores":[{"name":"Test_Authentication","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781677973654,"stop":1781677973658}],"afters":[],"start":1781677973623,"stop":1781677975846}
