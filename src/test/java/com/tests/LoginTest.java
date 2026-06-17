@@ -10,7 +10,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class Login {
+public class LoginTest {
 	@Test
 	public void loginTest() {
 		Map<String, Object> log = new HashMap<>();

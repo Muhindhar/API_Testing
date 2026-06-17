@@ -10,7 +10,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class put {
+public class putTest {
   @Test
   public void put() {
 	  Map<String,Object> payload = new HashMap<>();
