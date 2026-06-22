@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.Test_TogglePin">
+      <class name="com.tests.Test_GetNotes">
         <methods>
-          <include name="togglePin"/>
+          <include name="valid_withqparam1"/>
+          <include name="valid_withqparam2"/>
           <include name="login"/>
         </methods>
-      </class> <!-- com.tests.Test_TogglePin -->
+      </class> <!-- com.tests.Test_GetNotes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

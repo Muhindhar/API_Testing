@@ -14,7 +14,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 
-public class Test_CreateNode extends BaseUrl {
+public class Test_CreateNote extends BaseUrl {
 	 @BeforeClass
 	  public void login() {
 		  Test_Authentication ta = new Test_Authentication();
@@ -53,5 +53,15 @@ public class Test_CreateNode extends BaseUrl {
          .body("data.isPinned",equalTo(false));
       String noteId = res.jsonPath().getString("data._id");
       System.out.println("Extracted Note ID: " + noteId);
+  }
+  @Test
+  public void without_token() {
+      String url = base_url();
+      Response res = RestAssured.given()
+              .contentType(ContentType.JSON)
+              .when()
+              .post(url + "create/notes");
+      Assert.assertEquals(res.getStatusCode(),401);
+      res.prettyPrint();
   }
 }

@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-17T22:59:04 IST" name="Default suite" finished-at="2026-06-17T22:59:15 IST" duration-ms="10887">
+  <suite started-at="2026-06-22T23:24:09 IST" name="Default suite" finished-at="2026-06-22T23:24:55 IST" duration-ms="45649">
     <groups>
     </groups>
-    <test started-at="2026-06-17T22:59:04 IST" name="Default test" finished-at="2026-06-17T22:59:15 IST" duration-ms="10887">
-      <class name="com.tests.Test_DeleteNote">
-        <test-method is-config="true" signature="login()[pri:0, instance:com.tests.Test_DeleteNote@21be3395]" started-at="2026-06-17T22:59:04 IST" name="login" finished-at="2026-06-17T22:59:11 IST" duration-ms="7013" status="PASS">
+    <test started-at="2026-06-22T23:24:09 IST" name="Default test" finished-at="2026-06-22T23:24:55 IST" duration-ms="45649">
+      <class name="com.tests.Test_TogglePin">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.tests.Test_TogglePin@5f9edf14]" started-at="2026-06-22T23:24:09 IST" name="login" finished-at="2026-06-22T23:24:17 IST" duration-ms="8221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="deleteNote()[pri:0, instance:com.tests.Test_DeleteNote@21be3395]" started-at="2026-06-17T22:59:11 IST" name="deleteNote" finished-at="2026-06-17T22:59:15 IST" duration-ms="3722" status="PASS">
+        <test-method signature="delete_invalidNoteIdFormat()[pri:0, instance:com.tests.Test_TogglePin@5f9edf14]" started-at="2026-06-22T23:24:17 IST" name="delete_invalidNoteIdFormat" finished-at="2026-06-22T23:24:22 IST" duration-ms="4577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteNote -->
-      </class> <!-- com.tests.Test_DeleteNote -->
+        </test-method> <!-- delete_invalidNoteIdFormat -->
+        <test-method signature="togglePin()[pri:0, instance:com.tests.Test_TogglePin@5f9edf14]" started-at="2026-06-22T23:24:22 IST" name="togglePin" finished-at="2026-06-22T23:24:38 IST" duration-ms="16390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- togglePin -->
+        <test-method signature="togglePin_invalidNoteId()[pri:0, instance:com.tests.Test_TogglePin@5f9edf14]" started-at="2026-06-22T23:24:38 IST" name="togglePin_invalidNoteId" finished-at="2026-06-22T23:24:55 IST" duration-ms="16194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- togglePin_invalidNoteId -->
+      </class> <!-- com.tests.Test_TogglePin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

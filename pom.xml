@@ -56,6 +56,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>AutoIt</groupId>
+			<artifactId>AutoIt_demo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
