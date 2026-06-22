@@ -64,7 +64,8 @@
 
     <build>
         <plugins>
-            <!-- Java compile version -->
+
+            <!-- Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -75,15 +76,12 @@
                 </configuration>
             </plugin>
 
-            <!-- Surefire plugin -->
+            <!-- Surefire -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.3</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                     </systemPropertyVariables>
@@ -96,6 +94,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>3.5.3</version>
             </plugin>
+
         </plugins>
     </build>
 
